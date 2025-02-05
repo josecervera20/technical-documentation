@@ -1,0 +1,142 @@
+/* Global styles */
+body {
+    font-family: system-ui, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar styles */
+#navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    overflow-y: auto;
+    background-color: #333;
+    color: #fff;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+#navbar header {
+    padding: 15px;
+    font-size: 1.5em;
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+/* Navbar link styles */
+.nav-link {
+    display: block;
+    padding: 12px 15px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #555;
+}
+
+/* Main document container */
+#main-doc {
+    margin-left: 220px;
+    padding: 20px;
+    max-width: 900px;
+    box-sizing: border-box;
+}
+
+/* Main section styles */
+.main-section {
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+/* Section header */
+.main-section header {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Paragraph styles */
+.main-section p {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+/* Code block styles */
+.main-section code {
+    display: block;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+    margin-bottom: 10px;
+}
+
+/* List styles */
+.main-section ul {
+    padding-left: 20px;
+}
+
+.main-section ul li {
+    margin-bottom: 8px;
+}
+
+/* Media Queries for responsiveness */
+
+/* For devices with max-width 768px (tablets, small laptops) */
+@media (max-width: 768px) {
+    #navbar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    #navbar header {
+        text-align: center;
+    }
+
+    .nav-link {
+        text-align: center;
+        padding: 10px;
+    }
+
+    #main-doc {
+        margin-left: 0;
+        padding: 15px;
+    }
+}
+
+/* For devices with max-width 480px (small screens, mobile phones) */
+@media (max-width: 480px) {
+    #navbar {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    #navbar header {
+        font-size: 1.2em;
+    }
+
+    .nav-link {
+        text-align: center;
+        padding: 10px;
+    }
+
+    #main-doc {
+        padding: 10px;
+    }
+
+    .main-section header {
+        font-size: 1.5em;
+    }
+}

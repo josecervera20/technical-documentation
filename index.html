@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>Computer Networks Guide</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#Network_Types">Network Types</a>
+        <a class="nav-link" href="#Protocols">Protocols</a>
+        <a class="nav-link" href="#Security">Security</a>
+        <a class="nav-link" href="#Tools">Tools</a>
+        <a class="nav-link" href="#Reference">Reference</a>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>Computer networks enable communication between devices through data exchange.</p>
+            <p>They are fundamental in the operation of the internet and system interconnectivity.</p>
+            <p>The objective of this documentation is to provide an overview of computer networks, including their
+                types, protocols, security, and essential tools.</p>
+            <p>Networking is essential for both personal and business operations.</p>
+            <p>It allows devices to share resources, information, and access to the internet.</p>
+        </section>
+        <section class="main-section" id="Network_Types">
+            <header>Network Types</header>
+            <p>There are different types of networks based on their scope and functionality:</p>
+            <ul>
+                <li><strong>LAN (Local Area Network)</strong>: Connects devices within a specific location, such as an
+                    office or home.</li>
+                <li><strong>WAN (Wide Area Network)</strong>: Covers large distances and connects multiple locations.
+                </li>
+                <li><strong>MAN (Metropolitan Area Network)</strong>: Designed for urban areas, interconnecting several
+                    local networks.</li>
+                <li><strong>WLAN (Wireless Local Area Network)</strong>: Wireless networks that enable cable-free
+                    connections.</li>
+            </ul>
+            <p>Each type of network has different use cases, from small offices to large-scale global networks.</p>
+        </section>
+        <section class="main-section" id="Protocols">
+            <header>Protocols</header>
+            <p>Communication protocols are rules that allow data transfer between devices in a network:</p>
+            <ul>
+                <li><strong>TCP/IP</strong>: A suite of protocols forming the foundation of the internet and networks.
+                </li>
+                <li><strong>HTTP/HTTPS</strong>: Protocols used for secure web browsing.</li>
+                <li><strong>FTP</strong>: File transfer protocol between clients and servers.</li>
+                <li><strong>DNS</strong>: System that translates domain names into IP addresses.</li>
+                <li><strong>SMTP</strong>: Protocol for sending emails.</li>
+            </ul>
+            <p>Example of an HTTP request:</p>
+            <code>GET /index.html HTTP/1.1</code>
+            <p>Example of a POST request:</p>
+            <code>POST /submit-form HTTP/1.1</code>
+            <p>Checking network connectivity using ping:</p>
+            <code>ping www.example.com</code>
+        </section>
+        <section class="main-section" id="Security">
+            <header>Security</header>
+            <p>Network security is crucial to protect data and prevent unauthorized access:</p>
+            <ul>
+                <li><strong>Data Encryption</strong>: Ensures the privacy of transmitted information.</li>
+                <li><strong>Firewalls</strong>: Filter network traffic to block unauthorized access.</li>
+                <li><strong>VPNs</strong>: Virtual private networks that secure remote connections.</li>
+                <li><strong>Multi-Factor Authentication</strong>: Adds an extra layer of security by requiring multiple
+                    verification methods.</li>
+                <li><strong>Intrusion Detection</strong>: Tools to monitor suspicious activities in the network.</li>
+            </ul>
+            <p>Secure remote login using SSH:</p>
+            <code>ssh user@hostname</code>
+        </section>
+        <section class="main-section" id="Tools">
+            <header>Tools</header>
+            <p>Various tools exist for managing and diagnosing computer networks:</p>
+            <ul>
+                <li><strong>Wireshark</strong>: Network traffic analyzer.</li>
+                <li><strong>nmap</strong>: Tool for network scanning.</li>
+                <li><strong>Netcat</strong>: Used for communication testing and diagnostics.</li>
+                <li><strong>Ping and Traceroute</strong>: Utilities for checking connectivity and network routes.</li>
+                <li><strong>SNMP</strong>: Protocol for network device monitoring and management.</li>
+            </ul>
+            <p>Scanning a network for active devices:</p>
+            <code>nmap -sP 192.168.1.0/24</code>
+            <p>Pinging a public DNS server:</p>
+            <code>ping 8.8.8.8</code>
+        </section>
+        <section class="main-section" id="Reference">
+            <header>Reference</header>
+            <p>All the documentation in this page is taken from <a href="https://ccnadesdecero.es/" target="_blank">CCNA
+                    desde Cero</a>.</p>
+        </section>
+    </main>
+</body>
+
+</html>
