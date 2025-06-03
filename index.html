@@ -2,13 +2,17 @@
 <html lang="en">
 
 <head>
+    <!-- Metadatos -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titulo -->
     <title>Technical Documentation</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <!-- Barra de navegación lateral -->
     <nav id="navbar">
         <header>Computer Networks Guide</header>
         <a class="nav-link" href="#Introduction">Introduction</a>
@@ -19,7 +23,9 @@
         <a class="nav-link" href="#Reference">Reference</a>
     </nav>
 
+    <!-- Contenido principal de la documentación -->
     <main id="main-doc">
+        <!-- Sección: Introducción a redes de computadoras -->
         <section class="main-section" id="Introduction">
             <header>Introduction</header>
             <p>Computer networks enable communication between devices through data exchange.</p>
@@ -29,6 +35,7 @@
             <p>Networking is essential for both personal and business operations.</p>
             <p>It allows devices to share resources, information, and access to the internet.</p>
         </section>
+        <!-- Sección: Tipos de redes -->
         <section class="main-section" id="Network_Types">
             <header>Network Types</header>
             <p>There are different types of networks based on their scope and functionality:</p>
@@ -44,6 +51,7 @@
             </ul>
             <p>Each type of network has different use cases, from small offices to large-scale global networks.</p>
         </section>
+        <!-- Sección: Protocolos de comunicación -->
         <section class="main-section" id="Protocols">
             <header>Protocols</header>
             <p>Communication protocols are rules that allow data transfer between devices in a network:</p>
@@ -55,6 +63,7 @@
                 <li><strong>DNS</strong>: System that translates domain names into IP addresses.</li>
                 <li><strong>SMTP</strong>: Protocol for sending emails.</li>
             </ul>
+            <!-- Ejemplos de comandos y solicitudes -->
             <p>Example of an HTTP request:</p>
             <code>GET /index.html HTTP/1.1</code>
             <p>Example of a POST request:</p>
@@ -62,6 +71,7 @@
             <p>Checking network connectivity using ping:</p>
             <code>ping www.example.com</code>
         </section>
+        <!-- Sección: Seguridad en redes -->
         <section class="main-section" id="Security">
             <header>Security</header>
             <p>Network security is crucial to protect data and prevent unauthorized access:</p>
@@ -73,9 +83,11 @@
                     verification methods.</li>
                 <li><strong>Intrusion Detection</strong>: Tools to monitor suspicious activities in the network.</li>
             </ul>
+            <!-- Comando SSH como ejemplo de acceso seguro -->
             <p>Secure remote login using SSH:</p>
             <code>ssh user@hostname</code>
         </section>
+        <!-- Sección: Herramientas de red -->
         <section class="main-section" id="Tools">
             <header>Tools</header>
             <p>Various tools exist for managing and diagnosing computer networks:</p>
@@ -86,11 +98,13 @@
                 <li><strong>Ping and Traceroute</strong>: Utilities for checking connectivity and network routes.</li>
                 <li><strong>SNMP</strong>: Protocol for network device monitoring and management.</li>
             </ul>
+            <!-- Comandos prácticos -->
             <p>Scanning a network for active devices:</p>
             <code>nmap -sP 192.168.1.0/24</code>
             <p>Pinging a public DNS server:</p>
             <code>ping 8.8.8.8</code>
         </section>
+        <!-- Sección: Referencias utilizadas -->
         <section class="main-section" id="Reference">
             <header>Reference</header>
             <p>All the documentation in this page is taken from <a href="https://ccnadesdecero.es/" target="_blank">CCNA
